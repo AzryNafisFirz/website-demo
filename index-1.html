@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Orbital 3D Carousel by Tooplate</title>
+
+<!--
+
+    Tooplate 2167 Orbital
+
+    https://www.tooplate.com/view/2167-orbital
+
+    Free HTML CSS Template
+
+-->
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="tooplate-2167-orbital-style.css">
+</head>
+
+<body class="visuals-on">
+
+<video class="bg-video" autoplay loop muted playsinline>
+  <source src="Halo.mp4" type="video/mp4">
+</video>
+
+<div class="aura"></div>
+<div class="stars"></div>
+
+<nav class="nav">
+  <div class="logo"><a href="#" class="logo">NAFIS AZZAKY <span>// Portofolio</span></a></div>
+  <ul class="nav-links">
+    <li><a href="#system">Tentang</a></li>
+    <li><a href="#capabilities">Keahlian</a></li>
+    <li><a href="#pelajaran">Pelajaran</a></li>
+    <li><a href="#launch">Proyek</a></li>
+    <li><a href="#karir">Karir</a></li>
+  </ul>
+  <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<div class="mobile-menu">
+  <a href="#system">Tentang</a>
+  <a href="#capabilities">Keahlian</a>
+  <a href="#launch">Proyek</a>
+</div>
+
+<header class="hero">
+  <div class="stage">
+    <div class="parallax">
+      <div class="ring-tilt">
+        <div class="ring" id="ring">
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">01</div>
+              <div>
+                <div class="p-label">Bahasa Jerman</div>
+                <div class="p-meta">AXIS-X</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="images/jerman.jpg" alt="Bahasa Jerman" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">01</span>Bahasa Jerman</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">02</div>
+              <div>
+                <div class="p-label">Pelajaran Islam</div>
+                <div class="p-meta">120 BPM</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="images/islam.jpeg" alt="Pelajaran Islam" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">02</span>Pelajaran Islam</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">03</div>
+              <div>
+                <div class="p-label">Bahasa Inggris</div>
+                <div class="p-meta">STREAM</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="images/inggris.webp" alt="Bahasa Inggris" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">03</span>Bahasa Inggris</div>
+            </div>
+          </div>
+
+          <div class="panel">
+            <div class="panel-face panel-face--text">
+              <div class="p-num">04</div>
+              <div>
+                <div class="p-label">Portofolio</div>
+                <div class="p-meta">ZERO-G</div>
+              </div>
+            </div>
+            <div class="panel-face panel-face--image">
+              <img src="images/nafis.jpeg" alt="Portofolio" loading="lazy">
+              <div class="panel-scrim"></div>
+              <div class="panel-cap"><span class="p-num">04</span>Portofolio</div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <div class="hero-text">
+        <div class="eyebrow">PORTOFOLIO</div>
+        <h1>Nafis Azzaky Erwansya</h1>
+        <p>Pelajar SMK Negeri 6 Tangerang Selatan. Minat: AI (ChatGPT, Claude, Gemini), animasi 2D/3D (low poly), musik, cinematography, dan pembuatan konten.</p>
+      </div>
+    </div>
+  </div>
+  <div class="hero-controls">
+    <div class="ctrl">
+      <span class="ctrl-label">VISUALS</span>
+      <button class="switch" id="visualsSwitch" role="switch" aria-checked="true" aria-label="Toggle image visuals">
+        <span class="knob"></span>
+      </button>
+    </div>
+    <div class="ctrl">
+      <span class="ctrl-label">ZOOM</span>
+      <button class="switch" id="zoomSwitch" role="switch" aria-checked="false" aria-label="Zoom ring 24 percent larger">
+        <span class="knob"></span>
+      </button>
+    </div>
+    <div class="ctrl">
+      <span class="ctrl-label">SPACING</span>
+      <div class="spacing" role="group" aria-label="Ring spacing">
+        <button class="spacing-step" data-space="0" aria-label="Tight spacing"><i></i></button>
+        <button class="spacing-step is-active" data-space="1" aria-label="Default spacing"><i></i></button>
+        <button class="spacing-step" data-space="2" aria-label="Wide spacing"><i></i></button>
+      </div>
+    </div>
+  </div>
+  <div class="scroll-cue">
+    <span>SCROLL</span>
+    <div class="line"></div>
+  </div>
+</header>
+
+<section class="section" id="system">
+  <div class="section-head reveal">
+    <div class="eyebrow">// TENTANG SAYA</div>
+    <h2>Nafis Azzaky Erwansya — Pelajar & Kreator</h2>
+    <p>Lahir dan tinggal di Tangerang Selatan, Indonesia. SD di SD Islam Al Ashar, SMP di SMP Negeri 15 Tangsel, sekarang bersekolah di SMK Negeri 6 Tangerang Selatan. Saya memadukan minat teknis dan kreatif: AI, animasi, musik, jurnalistik, dan produksi video.</p>
+  </div>
+  <div class="features" id="capabilities">
+    <div class="feature reveal">
+      <div class="f-index">01 // AI & CODING</div>
+      <h3>Model & Eksperimen</h3>
+      <p>Pengalaman dengan ChatGPT, GitHub, Claude, Gemini, Deepsite, dan model di HuggingFace untuk proyek-proyek vibe coding dan eksperimen AI.</p>
+    </div>
+    <div class="feature reveal">
+      <div class="f-index">02 // ANIMASI</div>
+      <h3>Animasi 2D/3D</h3>
+      <p>Fokus pada animasi low poly dan gaya Minecraft — pembuatan karakter, scene pendek, dan pipeline animasi.</p>
+    </div>
+    <div class="feature reveal">
+      <div class="f-index">03 // CINEMATOGRAPHY</div>
+      <h3>Foto & Video</h3>
+      <p>Pengalaman fotografi, color grading (manual & template), editing video iklan, serta pembuatan konten untuk sosial media.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="pelajaran">
+  <div class="section-head reveal">
+    <div class="eyebrow">// PROYEK SEKOLAH</div>
+    <h2>Portofolio Pelajaran</h2>
+    <p>Rangkuman materi dan proyek pembelajaran dari berbagai mata pelajaran sekolah yang terintegrasi dengan teknologi.</p>
+  </div>
+  
+  <div class="subject-grid">
+    <div class="subject-card reveal">
+      <div class="obj-3d-wrapper">
+        <div class="obj-3d">1</div>
+      </div>
+      <div class="subject-content">
+        <h3>Pendidikan Agama Islam</h3>
+        <p><strong>Mencintai IPTEK dalam Islam.</strong> Membahas Dalil & Konsep Ulul Albab (Q.S. Ar-Rahman [55]: 33 & Ali 'Imran [3]: 190-191), serta etika penggunaan teknologi dan kontribusi cendekiawan Muslim.</p>
+      </div>
+    </div>
+
+    <div class="subject-card reveal">
+      <div class="obj-3d-wrapper">
+        <div class="obj-3d">2</div>
+      </div>
+      <div class="subject-content">
+        <h3>English Projects</h3>
+        <p><strong>Analytical Exposition & Narrative.</strong> Menampilkan struktur teks eksposisi (Thesis, Arguments, Reiteration) tentang literasi digital, serta penulisan cerita naratif kreatif beserta unsur kebahasaannya.</p>
+      </div>
+    </div>
+
+    <div class="subject-card reveal">
+      <div class="obj-3d-wrapper">
+        <div class="obj-3d">3</div>
+      </div>
+      <div class="subject-content">
+        <h3>Bahasa Jerman</h3>
+        <p><strong>Materi Dasar A1.1.</strong> Pembelajaran tingkat pemula yang meliputi cara memperkenalkan diri (Sich Vorstellen), asal negara (Herkunft), tempat tinggal (Wohnort), hingga penyebutan angka dan usia.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- BAGIAN KARIR SUKSES (ARUSMEDIA) -->
+<section class="section" id="karir">
+  <div class="section-head reveal">
+    <div class="eyebrow">// PENCAPAIAN</div>
+    <h2>Karir Sukses Pertama</h2>
+    <p>Dimulai pada tahun 2025 dan terus berkembang secara independen hingga saat ini.</p>
+  </div>
+
+    <!-- Konten ArusMedia -->
+    <div class="career-content">
+      <h3>ArusMedia <span>(Media Independen)</span></h3>
+      <p class="career-desc">
+        Didirikan secara resmi pada <strong>2 Mei 2026</strong>. Melewati berbagai proses eksplorasi identitas merek yang matang (sebelumnya bernama <em>IndonesiaNow</em>), saya memimpin penuh platform ini sebagai <strong>Owner sekaligus Founder</strong>.
+      </p>
+      
+      <!-- Statistik -->
+      <div class="stats-grid">
+        <div class="stat-box">
+          <span class="stat-num">1.2K</span>
+          <span class="stat-label">Pengikut</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">127.1K</span>
+          <span class="stat-label">Likes</span>
+        </div>
+        <div class="stat-box">
+          <span class="stat-num">2M+</span>
+          <span class="stat-label">Penonton</span>
+        </div>
+      </div>
+
+      <p class="career-platform">
+        Tersedia di: <strong>TikTok, Instagram, Facebook, YouTube, & WhatsApp</strong>.
+      </p>
+
+      <a href="https://www.tiktok.com/@arusmediaofficial?is_from_webapp=1&sender_device=pc" target="_blank" rel="noopener noreferrer" class="btn btn-arus">
+        KUNJUNGI TIKTOK ARUSMEDIA
+      </a>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="launch">
+  <div class="reveal">
+    <h2>Lihat Proyek Saya</h2>
+    <p>Proyek mencakup novel singkat (Fizzo Novel), musik di BandLab (2018–2024), animasi low poly, eksperimen AI, dan video ads.</p>
+    <a href="#" class="btn">LIHAT PROYEK</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="logo"><a href="#" class="logo">ORBITAL <span>// 297</span></a></div>
+  <div class="credit">3D Orbital Carousel by <a href="https://www.tooplate.com" rel="nofollow noopener" target="_blank">Tooplate</a></div>
+</footer>
+
+<script src="tooplate-2167-orbital-script.js"></script>
+
+</body>
+</html>
